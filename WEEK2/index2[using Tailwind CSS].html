@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 2 Task</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="images/profile.png" />
+  <style>
+    @font-face {
+      font-family: 'FacultyGlyphic';
+      src: url('fonts/FacultyGlyphic-Regular.ttf') format('truetype');
+    }
+
+    body {
+      font-family: 'FacultyGlyphic', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0d0d0d] text-[#cccccc]">
+  <header class="bg-[#1f1f1f] border-b border-[#e50914] py-5">
+    <div id="header" class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Dhana Venkat Manikanta Sai Vignesh Thota</h1>
+      <nav class="space-x-4">
+        <a href="#about-section" class="transition-transform transform hover:scale-110 hover:-translate-y-1 hover:text-[#e50914] hover:drop-shadow-[0_0_20px_#e50914]">About</a>
+        <a href="#projects-section" class="transition-transform transform hover:scale-110 hover:-translate-y-1 hover:text-[#e50914] hover:drop-shadow-[0_0_20px_#e50914]">Projects</a>
+        <a href="#contact-section" class="transition-transform transform hover:scale-110 hover:-translate-y-1 hover:text-[#e50914] hover:drop-shadow-[0_0_20px_#e50914]">Contact Info</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about-section" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-[#e50914] text-2xl mb-6 inline-block hover:scale-110 hover:drop-shadow-[0_0_20px_#e50914] transition">About Me</h2>
+    <p>I'm a Computer Science student who enjoys learning new things and looking for ways to grow.</p>
+    
+    <div class="mt-8">
+      <h2 class="text-[#e50914] text-2xl mb-4 inline-block hover:scale-110 hover:drop-shadow-[0_0_20px_#e50914] transition">Education</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>B.Tech in Computer Science - MIT, Manipal (2024 - 2028)</li>
+        <li>Class 12 - FIITJEE (94.7%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects-section" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-[#e50914] text-2xl mb-6 inline-block hover:scale-110 hover:drop-shadow-[0_0_20px_#e50914] transition">Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-[#1f1f1f] p-6 rounded-lg border-2 border-[#e50914] shadow-[0_0_10px_#e50914] hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_#e50914] transition">
+        <h3 class="text-lg font-semibold">Placeholder</h3>
+        <p class="mt-4">¯\\(ツ)/¯</p>
+      </div>
+      <div class="bg-[#1f1f1f] p-6 rounded-lg border-2 border-[#e50914] shadow-[0_0_10px_#e50914] hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_#e50914] transition">
+        <h3 class="text-lg font-semibold">Placeholder</h3>
+        <p class="mt-4">¯\\(ツ)/¯</p>
+      </div>
+      <div class="bg-[#1f1f1f] p-6 rounded-lg border-2 border-[#e50914] shadow-[0_0_10px_#e50914] hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_#e50914] transition">
+        <h3 class="text-lg font-semibold">Placeholder</h3>
+        <p class="mt-4">¯\\(ツ)/¯</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-[#e50914] text-2xl mb-6 inline-block hover:scale-110 hover:drop-shadow-[0_0_20px_#e50914] transition">Contact</h2>
+    <p>Email: dvmsv.thota@gmail.com</p>
+
+    <div class="flex items-center gap-4 mt-6">
+      <a href="https://www.instagram.com/dvmsvt" target="_blank" title="Go to my Instagram page"
+         class="w-10 h-10 flex items-center justify-center rounded-md bg-pink-600 hover:shadow-[0_0_20px_hsl(340,75%,54%)] hover:scale-125 transition">
+        <img src="images/instalogo.webp" alt="Instagram" width="24" />
+      </a>
+      <a href="https://in.linkedin.com/in/dhana-venkat-manikanta-sai-vignesh-thota-002600340" target="_blank" title="Go to my LinkedIn page"
+         class="w-10 h-10 flex items-center justify-center rounded-md bg-blue-700 hover:shadow-[0_0_20px_hsl(201,100%,35%)] hover:scale-125 transition">
+        <img src="images/linkedinlogo.avif" alt="LinkedIn" width="24" />
+      </a>
+    </div>
+  </section>
+
+  <a href="#header" id="back-to-top" class="fixed bottom-5 right-5 bg-[#1f1f1f] border-2 border-[#e50914] rounded-full p-3 shadow-[0_0_12px_#e50914] hover:shadow-[0_0_20px_#e50914] hover:scale-110 active:scale-75 transition z-50">
+    <img src="images/arrow.png" alt="Back to Top" width="30" />
+  </a>
+
+  <footer class="text-center py-6 bg-[#1f1f1f] text-[#777] border-t-2 border-[#e50914]">
+    <p>&copy; 2025 Dhana Venkat Manikanta Sai Vignesh Thota</p>
+  </footer>
+</body>
+</html>
